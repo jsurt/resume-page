@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>John Surtees' Resume</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header class="header" role="banner">
+    <h1>John Surtees</h1>
+    <p class="address">
+      109 West Wind Trail, Bardstown, KY 40004
+    </p>
+    <div class="header-links">
+      <a href="mailto:jacksurtees@gmail.com?subject=Hi Jack, saw your resume" class="header-link gmail-link">
+        <img src="./images/gmail-icon.png" alt="Gmail icon">
+      </a>
+      <a href="https://www.linkedin.com/in/john-surtees" class="header-link linkedin-link" target="_blank">
+        <img src="./images/linkedin-icon.png" alt="LinkedIn icon">
+      </a>
+      <a href="https://github.com/jsurt" class="header-link" target="_blank">
+        <img src="./images/github-logo.png" alt="GitHub icon">
+      </a>
+    </div>
+  </header>
+  <main class="main" role="main">
+    <section class="section skills">
+      <h2 class="section-header skills">Skills</h2>
+      <p class="skill">
+        Front End: JavaScript, React.js, Redux, Enzyme, jQuery, HTML, CSS
+      </p>
+      <p class="skill">
+        Back End: Node.js, MongoDB, Mocha &amp; Chai, Passport, REST APIs 3 
+      </p>
+      <p class="skills">
+        Dev Tools: Git, GitHub, Chrome Dev Tools, Heroku, Travis CI
+      </p>
+    </section>
+    <section class="section projects">
+      <h2 class="section-header projects">Projects</h2>
+      <div class="project-wrap matcher">
+        <h3 class="project-name">Match-Er</h3>
+        <a href="https://github.com/jsurt/Match-Er" class="repo-link">
+          <img src="./images/source-code-logo.png" alt="Icon for link to GitHub repo">
+        </a>
+        <p class="project-description">
+          Match-Er connects nearby tennis players, letting users friend each other, invite each other to matches, 
+          schedule matches, and track match scores as well as their overall record.
+        </p>
+        <p class="project-challenges">
+          Building Match-Er presented some challenges. For one, it was the first full stack application I built with React 
+          and Redux. At first it was difficult to "think in React." However, it soon clicked, and
+          I realized the incredible benefits of React. Another challenge was Match-Er required a more complicated back end than
+          I had done before. The Express Router was immensely useful in compartmentalizing the code, and Mongoose's subdocuments
+          made constructing and using the data models a smooth process.
+        </p>
+        <p class="project-tech">
+          Front End: React.js, Redux, CSS
+          <br />
+          Back End: Node, Express, MongoDB, Mongoose, Passport
+        </p>
+      </div>
+      <div class="project-wrap task">
+        <h3 class="project-name">Task Timer</h3>
+        <a href="https://github.com/jsurt/Task-Timer" class="repo-link">
+          <img src="./images/source-code-logo.png" alt="Icon for link to GitHub repo">
+        </a>
+        <p class="project-description">
+          Task Timer tracks how long users spend doing typical tasks such as checking their email, reading the news,
+          spending time on social media, or studying.
+        </p>
+        <p class="project-challenges">
+          One big challenge I encountered in building Task Timer was, halfway through the project, I shifted the purpose of it. It originally
+          was called "Cube JS," and was a Rubik's cube timer that tracked a user's solve times, provided scrambling algorithms, and kept users' notes
+          on solves. I realized that wouldn't be useful or interesting to most users, so the scope of the app was broadened. I built the timer from 
+          scratch with JavaScript, and that was a fun puzzle. 
+        </p>
+        <p class="project-tech">
+          Front End: HTML, CSS, JavaScript, jQuery,
+          <br />
+          Back End: Node, Express, MongoDB, Mongoose, Passport
+        </p>
+      </div>
+      <div class="project-wrap retrotv">
+        <h3 class="project-name">Retro YouTube</h3>
+        <a href="https://github.com/jsurt/3D-YouTube-TV" class="repo-link">
+          <img src="./images/source-code-logo.png" alt="Icon for link to GitHub repo">
+        </a>
+        <p class="project-description">
+          Retro YouTube plays YouTube videos on a 3D model of a retro television. The user controls the video with a 
+          remote that renders when the site is loaded on mobile.
+        </p>
+        <p class="project-challenges">
+          Retro YouTube was the first real web-app I built. It was a difficult challenge to figure out how to display and position 
+          a 3D model of a television in the browser as well as rotate the video's iframe three dimensionally with the television. I used 
+          the Three.js library to solve those problems. Another challenge was figuring out the functionality of connecting the device displaying the 
+          television with the device acting as the remote. I resolved that issue with the Socket.IO library.
+        </p>
+        <p class="project-tech">
+          Front End: HTML, CSS, JavaScript, jQuery, Three.js, Socket.IO 
+          <br />
+          Back End: Node, Express, Socket.IO
+        </p>
+      </div>
+    </section>
+    <section class="section experience">
+      <h2 class="section-header experience">Experience</h2>
+      <div class="exp-wrap">
+        <div class="exp-header-wrap">
+          <h3 class="exp-title">Preservation Distillery</h3>
+          <p class="exp-location"> - Bardstown, KY</p>
+          <p class="exp-position">Inventory Management</p>
+          <p class="exp-date">Oct 2018 - Jan 2019</p>
+        </div>
+        <ul class="exp-duties">
+          <li class="exp-duty">
+            Was one of two people in charge of developing a new system for receiving, storing, and tracking incoming units of inventory.
+          </li>
+          <li class="exp-duty">
+            Upon arrival at company, fixed major issue of disorganized inventory that resulted from the old inventory system.
+          </li>
+        </ul>
+      </div>
+      <div class="exp-wrap">
+        <div class="exp-header-wrap">
+          <h3 class="exp-title">Travis Easterling - State Farm Insurance</h3>
+          <p class="exp-location"> - Bardstown, KY</p>
+          <p class="exp-position">Staff Assistant</p>
+          <p class="exp-date">Aug 2018 - Oct 2018</p>
+        </div>
+        <ul class="exp-duties">
+          <li class="exp-duty">
+            Developed leads, identified client needs, and marketed products and services
+          </li>
+          <li class="exp-duty">
+            Established client relationships and followed up wih clients
+          </li>
+          <li class="exp-duty">
+            Worked with agent to establish and meet marketing goals
+          </li>
+        </ul>
+      </div>
+      <div class="exp-wrap">
+        <div class="exp-header-wrap">
+            <h3 class="exp-title">The Stephen Foster Story</h3>
+            <p class="exp-location"> - Bardstown, KY</p>
+            <p class="exp-position">Electrician &amp; Followspot Operator</p>
+            <p class="exp-date">Summer, 2017 &amp; Summer, 2018</p>
+        </div>
+        <ul class="exp-duties">
+          <li class="exp-duty">
+            Installed and wired lighting fixtures for two productions each season, following designs given by the Lighting Director
+          </li>
+          <li class="exp-duty">
+            Took over Master Electrician's duties when needed, such as executing cues from the lighting control console and communicating with the Stage Manager
+          </li>
+          <li class="exp-duty">
+            Was regularly in charge of the lighting crew's practicals and presets
+          </li>
+          <li class="exp-duty">
+            Aided in developing and executing followspot cues
+          </li>
+        </ul>
+      </div>
+      <div class="exp-wrap">
+        <div class="exp-header-wrap">
+            <h3 class="exp-title">Schay Advertising</h3>
+            <p class="exp-location"> - Dallas, TX (Remote)</p>
+            <p class="exp-position">Sales Assistant</p>
+            <p class="exp-date">September, 2017 - April, 2018</p>
+        </div>
+        <ul class="exp-duties">
+          <li class="exp-duty">
+            Invoiced clients
+          </li>
+          <li class="exp-duty">
+            Completed monthly reports for advertiser publishers
+          </li>
+          <li class="exp-duty">
+            Followed up on overdue invoices
+          </li>
+          <li class="exp-duty">
+            Earned certification for Google's DoubleClick for Publishers
+          </li>
+          <li class="exp-duty">
+            Uploaded new advertisements to sites with DoubleClick for Publishers 
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section education">
+      <div class="edu-wrap">
+        <h3 class="edu-name">Thinkful Full Stack Flex Program</h3>
+        <p class="edu-date">Fall, 2018 - Spring, 2019</p>
+        <h4 class="edu-area-title">Area of Study</h4>
+        <ul class="edu-area-list">
+          <li class="edu-area">Learned industry best practices and practical software development standards with a focus on HTML, 
+            CSS, JavaScript, jQuery, Node.js, React, Redux, and algorithms &amp; data structures.
+          </li>
+          <li class="edu-area">
+              Created and deployed mobile-first applications while learning new languages and frameworks by collaborating several hours
+              every week with a senior web developer.
+          </li>
+        </ul>
+      </div>
+      <div class="edu-wrap">
+        <h3 class="edu-name">University of Dallas</h3>
+        <p class="edu-date">Spring, 2017 - Spring, 2018</p>
+        <p class="edu-major">Major: Business</p>
+        <p class="edu-awards">Awards: President's Scholarship</p>
+        <p class="edu-outcome">Left to pursue web development</p>
+      </div>
+      <div class="edu-wrap">
+        <h3 class="edu-name">University of Alabama</h3>
+        <p class="edu-date">Fall, 2016</p>
+        <p class="edu-major">Major: Mathematics</p>
+        <p class="edu-awards">Awards: Presidential Scholarship</p>
+        <p class="edu-outcome">Transferred to University of Dallas to pursue a Business degree</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+      <div class="footer-content copyright-info">
+        Gmail and LinkedIn icons made by <a href="https://www.freepik.com/" title="Freepik" class="copyright-link">Freepik</a>, 
+        GitHub icon made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy" class="copyright-link">Dave Gandy</a>, 
+        source code icon made by <a href="https://www.flaticon.com/authors/pixelmeetup" title="Pixelmeetup" class="copyright-link">Pixelmeetup</a>, 
+        all from <a href="https://www.flaticon.com/" title="Flaticon" class="copyright-link">www.flaticon.com</a> and are licensed by 
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" class="copyright-link" target="_blank">CC 3.0 BY</a>
+      </div>
+        <a href="https://github.com/jsurt/resume-page" class="source-link">View Page Source</a>
+  </footer>
+</body>
+</html>
+
+<!--For Gmail and LinkedIn-->
+<!--<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+
+<!--For GitHub logo-->
+<!--<div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
+
+<!--For Source Code-->
+<!--<div>Icons made by <a href="https://www.flaticon.com/authors/pixelmeetup" title="Pixelmeetup">Pixelmeetup</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
