@@ -173,7 +173,7 @@ p {
 footer {
   width: 100%;
   padding: 5px;
-  background: #000000;
+  background: #3CBCC3;
   color: #ffffff;
   text-align: center;
 }
@@ -185,7 +185,12 @@ footer {
 
 .source-link {
   text-decoration: none;
-  color: #ffff42;
+  color: #333333;
+}
+
+.source-link:hover {
+  color: #484848;
+  text-decoration: underline;
 }
 
 @media (min-width: 875px) {
